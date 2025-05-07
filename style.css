@@ -74,7 +74,7 @@ body {
     text-align: center;
     line-height:25px;
     top:19px;
-    left:85px;
+    left:43px;
     color: #003049;
   }
   
@@ -123,6 +123,7 @@ body {
     transform: rotate(-45deg);
     width: 10px;
     top:50px;
+    z-index: 20;
   }
   
   .one:before,
@@ -204,7 +205,7 @@ body {
     height:0;
   }
   
-  .shadow {
+  /* .shadow {
     position: absolute;
     width: 330px;
     height: 25px;
@@ -215,7 +216,7 @@ body {
     animation: scale 3s linear infinite;
     z-index:-1;
   }
-  
+   */
   @keyframes scale {
     0%, 100% {
       transform: scaleX(1);
